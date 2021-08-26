@@ -39,10 +39,7 @@ h5{
     font-family: GOTHAM;
     color: white;
 }
-p{
-    font-family: GOTHAM;
-    color: white;
-}
+
 div#title{
     background-image: url(..//imagens/lan.jpg);
     background-size: cover;
@@ -60,10 +57,12 @@ h2#title1{
 }
 
 section#form{
-    background-color: rgb(34, 33, 33);
+    background-color: rgba(34, 33, 33, 80%);
     text-align: center;
     color: white;
     border-radius: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 section#form h4{

@@ -31,10 +31,9 @@ body {
 
  /*Editando fonte*/
 
-
- p {
-     font-family: Montserrat;
- }
+p{
+    text-align: justify;
+}
 
  p#information{
      font-family: Arial, Helvetica, sans-serif;
@@ -129,6 +128,10 @@ a#imglogo img{
     margin-left: 50px;
 }
 
+h2#galery{
+    color: #1b1b1b;
+}
+
 /*Editando Menu*/
 
 
@@ -145,6 +148,30 @@ div#data{
     color: white;
 }
 
+div#contra{
+    background-color: whitesmoke;
+}
+
+Div#contcontra{
+    background-color: whitesmoke;
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 0px;
+    padding-bottom: 100px;
+    background-size: cover;
+}
+
+div#galery{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+div#engdispo{
+    background-color: whitesmoke;
+    padding-top: 50px;
+
+
+}
 a#link3{
     color: black;
 }
@@ -159,6 +186,11 @@ div#capa{
     background-size: cover;
 }
 
+div#formcont{
+    background-image: url(../imagens/equipe.png);
+    padding-top: 50px;
+    padding-bottom: 50px ;
+}
 
 
 /* Editando imagens */
@@ -204,22 +236,21 @@ img#meta{
 /* Editando Botão */
 
 button#capa{
-    margin-left: 50px;
-    margin-top: 20px;
-    background-color:#e7a900; 
+
+    background-color:#ffd21e; 
     border: none;
-    color: white;
+    color: whitesmoke;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 14px;
-    font-family: GOTHAM;
+    font-size: 22px;
+    font-family: Montserrat;
     border-radius: 6px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     transition-property: all;
     transition-duration: 0.1s;
     transition-timing-function: linear;
-    /*transition-delay: 0.1s;*/
+    transition-delay: 0.1s;
     padding-top: 5px;
     padding-bottom: 5px;
     
@@ -230,6 +261,13 @@ button#capa{
 button#capa.color:hover{
     background:#000000;
 }
+
+button#eng{
+    background-color: #ffd21e;
+    border-radius: 15px;
+}
+
+
 
 button#corpo2{
     background-color: white;
