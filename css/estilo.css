@@ -640,19 +640,19 @@ form#formtrabalhe{
 /* Editando Footer*/
 
 footer{
-    background-color: #292b2c;
-    color: white;
-    margin-top: -10px;
-    margin-bottom: -30px;
-    padding: 20px;
+    background-color: black;
+    padding-top: 15px;
+    padding-bottom: -15px;
     width: 100%;
     display: block;
-    font-family: GOTHAM;
+    font-family: montserrat;
+    color: #ffd21e
 }
 
-footer p{
-    margin-left: 80px;
+#footer{
+    background-color: black;
 }
+
 
 footer#newsletter{
     margin-top: 160px;
