@@ -12,6 +12,8 @@
      text-decoration: none;
  }
 
+ p{color: whitesmoke;}
+
 a#link{
     font-family: GOTHAM;
     color: white;
@@ -40,12 +42,32 @@ h5{
     color: white;
 }
 
+div.video{
+    position: relative;
+    margin-top: 45px;
+    padding-bottom: 400px;
+}
+
+div.video iframe{
+    position: absolute;
+    width: 97%;
+    height: 100%;
+
+}
+
 div#title{
     background-image: url(..//imagens/lan.jpg);
     background-size: cover;
     background-position: fixed;
     background-repeat: no-repeat;
     padding-bottom: 55px;
+}
+
+div#title2{
+    background-image: url(..//imagens/lan.jpg);
+    background-size: cover;
+    background-position: fixed;
+    background-repeat: no-repeat;
 }
 
 h2#title1{
@@ -61,8 +83,9 @@ section#form{
     text-align: center;
     color: white;
     border-radius: 30px;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    margin-top: 20px;
+    padding-bottom: 40px;
+    padding-top: 40px;
 }
 
 section#form h4{
@@ -70,27 +93,19 @@ section#form h4{
 }
 
 section#form input{
-    width: 320px;
+    width: 90%;
     border-radius: 8px;
     height: 50px;
     margin-bottom: 20px;
     padding-left: 10px;
 }
 
-input#um{
-    width: 400px;
-    border-radius: 8px;
-    height: 50px;
-    margin-bottom: 20px;
-    margin-top: 10px;
-    padding-left: 10px;
-}
 
 #button {
-    background-color: #0f773e;
-    border-color: #0f773e;
+    background-color: #ffd21e;
+    border-color: #ffd21e;
     border-radius: 8px;
-    width: 320px;
+    width: 90%;
     height: 50px;
     color: white;
     padding-top: 15px;
@@ -125,12 +140,12 @@ div#porticapa h1{
 }
 
 h2#web{
-    margin-top: 100px;
+    margin-top: 50px;
     font: GOTHAM;
 }
 
 #linkescuro{
-    color: #0f773e;
+    color: #ffd21e;
 }
 
 img#web{
@@ -143,6 +158,7 @@ div#SEO{
 
 #website{
     background-color: black;
+    padding-bottom: 50px;
 }
 
 #ads{
@@ -171,7 +187,7 @@ section#ferramenta{
 
 div#blocoferr{
     border-radius: 30px;
-    background-color: #0f773e;
+    background-color: #ffd21e;
 }
 
 div#form{
@@ -203,7 +219,7 @@ div#contato{
 }
 
 #footer{
-    background-color: #0f773e;
+    background-color: #ffd21e;
     margin-bottom: 0px;
 }
 
