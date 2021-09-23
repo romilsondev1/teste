@@ -152,6 +152,16 @@ div#contra{
     background-color: whitesmoke;
 }
 
+div#depoimento2{
+    background-color:rgb(41, 41, 41);
+    text-align: center;
+    padding-top: 50px;
+}
+
+div#depoimento2 p{
+    text-align: center;
+}
+
 Div#contcontra{
     background-color: whitesmoke;
     width: 100%;
